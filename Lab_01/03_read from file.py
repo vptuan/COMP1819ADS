@@ -9,3 +9,4 @@ Created on Mon Jan 13 18:10:14 2020
 f = open("lucky_ids.txt", "r")
 for bannerId in f:
   print(bannerId, end="")
+# YOUR CODE HERE
