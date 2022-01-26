@@ -16,5 +16,5 @@ with open("lucky_ids_4.txt", "r") as f:
             greatest2 = i
         elif greatest2 > i > greatest3:
             greatest3 = i
-        print(i, greatest1, greatest2, greatest3)
+        # print(i, greatest1, greatest2, greatest3)
     print(greatest1, greatest2, greatest3)
