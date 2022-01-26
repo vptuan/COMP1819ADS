@@ -1,3 +1,4 @@
+# Can you spot a bug
 with open("lucky_ids_4.txt", "r") as f:
     stuff = []
     for i in f.readline().split():
