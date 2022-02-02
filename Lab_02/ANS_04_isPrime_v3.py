@@ -2,7 +2,7 @@
 
 import time
 
-n = 111181111
+n = 111181177 # 4 secs
 
 start = time.time()
 
@@ -14,6 +14,7 @@ else:
     for i in range(2, int(n/2)):
         if n % i == 0:
             is_prime = False
+            print("factor ", i)
             break
         else:
             is_prime = True

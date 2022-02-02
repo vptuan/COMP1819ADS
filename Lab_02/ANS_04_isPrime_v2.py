@@ -3,11 +3,13 @@
 Created on Tue Feb  2 10:41:28 2021
 
 @author: Tuan Vuong
+#
+257, 3779, 14741, 331777, 7772777, 111181111, 99999199999 
 """
 
 import time
 
-n = 111181111
+n = 111181177 # 10 secs
 
 start = time.time()
 
