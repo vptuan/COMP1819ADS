@@ -24,6 +24,6 @@ arr = [6, 5, 3, 1, 8, 7, 2, 4]
 
 print ("Input : ", arr)
 
-insertion_sort(arr)
+bubble_sort(arr)
 
 print("Output: ", arr)
