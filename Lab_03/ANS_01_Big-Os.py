@@ -1,3 +1,4 @@
+# Sample solution from a student in COMP1819-2022
 import time
 
 def constant(n):
