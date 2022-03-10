@@ -1,4 +1,4 @@
-# Adopted from https://www.geeksforgeeks.org/python-sets/
+# geeksforgeeks, https://www.geeksforgeeks.org/python-sets/, (2022)
 # Python program to demonstrate
 # Addition of elements in a Set
 
