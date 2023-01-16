@@ -1,4 +1,4 @@
-COMP1819ADS COMP1819 Algorithms and Data Structures
+COMP1819ADS COMP1819 Algorithms and Data Structures, 2022/2023's cohort
 
 These are sample solutions/hints. Hence, some are not completed on purpose.
 
