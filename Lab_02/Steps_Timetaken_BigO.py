@@ -16,8 +16,7 @@ def linear(n):
         count += 1
     return count
 
-
-def square(n):
+def quadratic(n):
     count = 0
     for i in n:
         for j in n:
@@ -33,19 +32,19 @@ def timetaken(size):
     ######################## select Big-0 here ########################
     constant(sequence)
     #linear(sequence)
-    #square(sequence)
+    #quadratic(sequence)
     ######################## select Big-0 here ########################
     totaltime = time.time() - starttime
     return (totaltime)
 
 
-def runCases(testnumbers):
+def runCases(caseSizes):
     print("Size  Timetaken(Standard Form)  Timetaken (Decimal)")
-    for n in testnumbers:
+    for n in caseSizes:
         tk = timetaken(n)
         print(str(n)+"  "+ str(tk)+ " " + format(tk, ".2f"))
 
 #numbersizes = [1024,1000,10000,100000,10000000,20000000,100000000,200000000]
-numbersizes = [10000,10000,10000]
+caseSizes = [10000,10000,10000]
 
-runCases(numbersizes)
+runCases(caseSizes)
