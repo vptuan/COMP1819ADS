@@ -1,7 +1,7 @@
 import math
 import time
 
-def isPrime(n): # not correct for n == 2
+def isPrime(n): 
     if n == 2: return True
     if (n % 2 == 0):
         return False
