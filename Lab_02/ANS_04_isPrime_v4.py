@@ -2,6 +2,7 @@ import math
 import time
 
 def isPrime(n): # not correct for n == 2
+    if n == 2: return True
     if (n % 2 == 0):
         return False
     for i in range(3, int(math.sqrt(n)) + 1, 2): # all odds, between 3, sqrt(n)
