@@ -11,7 +11,7 @@ def fMinMax(xSeqIn):
   nMin = None
   nMax = None
   for nValue in tSeqList:
-    if type(nValue) == int or type(vValue) == float:
+    if type(nValue) == int or type(nValue) == float:
       if nMin == None:
         nMin = nValue
         nMax = nValue
